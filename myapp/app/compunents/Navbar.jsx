@@ -1,22 +1,24 @@
 import React from 'react'
+import { FaSignInAlt, FaUserPlus } from 'react-icons/fa';
+
 
 const Navbar = () => {
   return (
     <nav className='w-full fixed'>
         <div className='w-full h-36 bg-white flex items-center justify-between px-10 shadow-md'>
-            <div className='text-3xl font-bold ml-20  text-blue-600'>BookTime</div>
-            <div>
-                <button className='px-4 py-2 rounded-md mr-4 hover:text-purple-700'>Sign in</button>
+            <div className='text-3xl font-bold ml-20 text-blue-600'>BookTime</div>
+            <div className="flex gap-6">
+                 {/* Sign in */}
+               <a href="/signin" className="flex items-center gap-2 hover:text-purple-700">
+                <FaUserPlus /> Sign Up
+              </a>
 
-                <button className='text-black px-4 py-2 rounded-md mr-30 hover:text-purple-700'>Sign Up</button>
+               {/* Sign up */}
+              <a href="/signup" className="flex items-center gap-2 mr-36 hover:text-purple-700">
+                <FaSignInAlt /> Sign In
+              </a>
             </div>
-            <div className='flex space-x-8 text-lg font-medium mr-20 '>
-                <a href="#" className='text-black hover:text-purple-500'>Home</a>
-                <a href="#" className='text-black hover:text-purple-500'>About</a>
-                <a href="#" className='text-black hover:text-purple-500'>Series</a>
-                <a href="#" className='text-black hover:text-purple-500'>Contributors</a>
-                <a href="#" className='text-black hover:text-purple-500'>About Us</a>
-            </div>
+
         </div>
     </nav>
   )

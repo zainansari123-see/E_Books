@@ -4,7 +4,7 @@ import { FaSignInAlt, FaUserPlus } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <nav className='w-full fixed'>
+    <nav className='w-full'>
         <div className='w-full h-36 bg-white flex items-center justify-between px-10 shadow-md'>
             <div className='text-3xl font-bold ml-20 text-blue-600'>BookTime</div>
             <div className="flex gap-6">

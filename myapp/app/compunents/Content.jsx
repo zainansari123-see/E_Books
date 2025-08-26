@@ -1,12 +1,12 @@
 import React from 'react'
 
-const content = () => {
+const Content = () => {
   return (
-    <div className=''>
-    sfnkjsnjsnjsnjnfwnaqaf
+    <div className='text-black z-50'>
+      <img src="./image/bannar.png" alt="" />
     </div>
         
   )
 }
 
-export default content
+export default Content

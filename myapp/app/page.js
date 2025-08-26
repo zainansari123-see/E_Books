@@ -1,21 +1,14 @@
-import React from 'react'
-import Navbar from './compunents/Navbar'
-import Navbar2 from './compunents/Navbar2'
-import Content from './compunents/Content'
+// import { Content } from "next/font/google";
+import Content from "./compunents/Content";
+import Navbar from "./compunents/Navbar";
+import Navbar2 from "./compunents/Navbar2";
 
-
-const Home = () => {
+export default function Home() {
   return (
     <div>
-      <div className='w-full h-screen bg-gray-100'>
-        <Navbar/>
-        <Navbar2/>
-        <Content/>
-      </div>
+      <Navbar />
+      <Navbar2 />
+      <Content />
     </div>
   )
 }
-
-
-
-export default Home

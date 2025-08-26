@@ -2,8 +2,11 @@ import React from 'react'
 
 const Content = () => {
   return (
-    <div className='text-black z-50'>
-      <img src="./image/bannar.png" alt="" />
+    <div className='w-full h-63 py-5 bg-sky-100'>
+      <div className='ml-27 text-3xl font-bold w-fit text-black mt-3 bg-white' >Booktime</div>
+      <div className='ml-27 text-gray-600 w-fit mt-3' >Booktime is the children's and young readers' gateway to a world of knowledge and</div>
+      <div className='ml-27 text-gray-600 w-fit' >imagination. Explore a variety of interesting books and enjoyable stories in different languages.</div>
+      <img src="/hero.png" alt="" className='w-95 h-65 ml-210' />
     </div>
         
   )

@@ -6,7 +6,9 @@ const Navbar = () => {
   return (
     <nav className='w-full'>
         <div className='w-full h-25 bg-white flex items-center justify-between px-10 shadow-md'>
-            <div className='text-3xl font-bold ml-20 text-blue-600'>BookTime</div>
+            <div className=''>
+              <img src="/logo.svg" alt="" className='h-12 w-fit ml-15'/>
+            </div>
             <div className="flex gap-6">
                  {/* Sign in */}
                <a href="/signin" className="flex items-center gap-2 hover:text-purple-700">

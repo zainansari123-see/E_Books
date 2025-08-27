@@ -3,6 +3,7 @@ import Navbar from "./compunents/Navbar";
 import Navbar2 from "./compunents/Navbar2";
 import Content2 from "./compunents/Content2";
 import Bannar from "./compunents/Bannar";
+import Footer from "./compunents/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Content />
       <Content2 />
       <Bannar />
+      <Footer/>
     </div>
   )
 }

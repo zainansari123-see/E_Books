@@ -7,7 +7,7 @@ import Footer from "./compunents/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
       <Navbar />
       <Navbar2 />
       <Content />

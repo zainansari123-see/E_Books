@@ -616,6 +616,10 @@
 @layer components;
 
 @layer utilities {
+  .relative {
+    position: relative;
+  }
+
   .container {
     width: 100%;
   }
@@ -763,16 +767,40 @@
     margin-bottom: calc(var(--spacing) * 50);
   }
 
+  .ml-1 {
+    margin-left: calc(var(--spacing) * 1);
+  }
+
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
+  }
+
+  .ml-7 {
+    margin-left: calc(var(--spacing) * 7);
+  }
+
+  .ml-8 {
+    margin-left: calc(var(--spacing) * 8);
   }
 
   .ml-10 {
     margin-left: calc(var(--spacing) * 10);
   }
 
+  .ml-12 {
+    margin-left: calc(var(--spacing) * 12);
+  }
+
   .ml-15 {
     margin-left: calc(var(--spacing) * 15);
+  }
+
+  .ml-17 {
+    margin-left: calc(var(--spacing) * 17);
+  }
+
+  .ml-18 {
+    margin-left: calc(var(--spacing) * 18);
   }
 
   .ml-25 {

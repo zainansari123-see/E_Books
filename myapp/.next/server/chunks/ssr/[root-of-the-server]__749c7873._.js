@@ -85,7 +85,7 @@ const RegistrationForm = ()=>{
                             type: "text",
                             name: "fullname",
                             placeholder: "Full Name",
-                            className: "mb-4 px-3 py-2 rounded-md text-black outline-none"
+                            className: "mb-4 px-3 py-2 rounded-md text-black outline-none hover:shadow-md"
                         }, void 0, false, {
                             fileName: "[project]/app/signup/page.jsx",
                             lineNumber: 13,
@@ -96,17 +96,17 @@ const RegistrationForm = ()=>{
                             children: "User Name:"
                         }, void 0, false, {
                             fileName: "[project]/app/signup/page.jsx",
-                            lineNumber: 21,
+                            lineNumber: 18,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                             type: "text",
                             name: "username",
                             placeholder: "User Name",
-                            className: "mb-4 px-3 py-2 rounded-md text-black outline-none"
+                            className: "mb-4 px-3 py-2 rounded-md text-black outline-none hover:shadow-md"
                         }, void 0, false, {
                             fileName: "[project]/app/signup/page.jsx",
-                            lineNumber: 22,
+                            lineNumber: 19,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -114,17 +114,17 @@ const RegistrationForm = ()=>{
                             children: "Email:"
                         }, void 0, false, {
                             fileName: "[project]/app/signup/page.jsx",
-                            lineNumber: 30,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                             type: "email",
                             name: "email",
                             placeholder: "Email",
-                            className: "mb-4 px-3 py-2 rounded-md text-black outline-none"
+                            className: "mb-4 px-3 py-2 rounded-md text-black outline-none hover:shadow-md"
                         }, void 0, false, {
                             fileName: "[project]/app/signup/page.jsx",
-                            lineNumber: 31,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -132,26 +132,26 @@ const RegistrationForm = ()=>{
                             children: "Password:"
                         }, void 0, false, {
                             fileName: "[project]/app/signup/page.jsx",
-                            lineNumber: 39,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                             type: "password",
                             name: "password",
                             placeholder: "Password",
-                            className: "mb-4 px-3 py-2 rounded-md text-black outline-none"
+                            className: "mb-4 px-3 py-2 rounded-md text-black outline-none hover:shadow-md"
                         }, void 0, false, {
                             fileName: "[project]/app/signup/page.jsx",
-                            lineNumber: 40,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "submit",
-                            className: "bg-white text-black font-bold py-2 rounded-md hover:text-red-500 transition",
+                            className: "bg-white text-black font-bold py-2 rounded-md hover:text-red-500 transition hover:shadow-md",
                             children: "Register"
                         }, void 0, false, {
                             fileName: "[project]/app/signup/page.jsx",
-                            lineNumber: 48,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -170,14 +170,14 @@ const RegistrationForm = ()=>{
                             children: "Privacy Policy"
                         }, void 0, false, {
                             fileName: "[project]/app/signup/page.jsx",
-                            lineNumber: 55,
+                            lineNumber: 43,
                             columnNumber: 70
                         }, ("TURBOPACK compile-time value", void 0)),
                         " and "
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/signup/page.jsx",
-                    lineNumber: 55,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -186,12 +186,12 @@ const RegistrationForm = ()=>{
                     children: "Terms and Conditions."
                 }, void 0, false, {
                     fileName: "[project]/app/signup/page.jsx",
-                    lineNumber: 56,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$compunents$2f$CC$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/signup/page.jsx",
-                    lineNumber: 57,
+                    lineNumber: 45,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0))
             ]

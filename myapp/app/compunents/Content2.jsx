@@ -60,7 +60,7 @@ const Content2 = () => {
       <img src="/girl5.png" alt=""  className='mb-10' />
       </div>
       </div>
-      
+
       <div className='flex flex-row  mt-20 mb-10 '>
         <div className='text-2xl w-fit text-black mt-3 ml-25 flex-row-reverse' >Let's Look Around</div>
         <a href="#" className="flex items-center gap-2 ml-200 text-purple-500 min-w-fit hover:text-purple-700">View All <FaLongArrowAltRight /></a>
@@ -71,7 +71,7 @@ const Content2 = () => {
       <img src="/girl3.png" alt="" />
       <img src="/girl4.png" alt="" />
       <img src="/girl5.png" alt="" />
-      </div>      
+      </div>
     </div>
   )
 }

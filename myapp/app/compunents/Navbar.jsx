@@ -20,7 +20,6 @@ const Navbar = () => {
                    <FaUserPlus /> Sign In
               </Link>
             </div>
-
         </div>
     </nav>
   )

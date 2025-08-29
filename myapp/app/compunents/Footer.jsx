@@ -1,4 +1,5 @@
 import React from 'react'
+import CC from './CC'
 
 const Footer = () => {
   return (
@@ -18,8 +19,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className='md:w-1/3 flex justify-between'>
-                <ul className="gap-4 flex flex-col mr-25">
-                    <p>Menu</p>
+                <ul className="gap-4 flex flex-col mt-9 mr-25">
                     <li><a href="#" className="hover:text-purple-700 hover:underline">About Us</a></li>
                     <li><a href="#" className="hover:text-purple-700 hover:underline">Donate</a></li>
                     <li><a href="#" className="hover:text-purple-700 hover:underline">Privicy Policy</a></li>
@@ -27,9 +27,7 @@ const Footer = () => {
                 </ul>            
             </div>        
         </div>        
-        <div className='w-full h-15 bg-black flex items-center justify-center'>
-            <div className=' text-gray-400' >Copyrigh`t © 2025 Booktime. All rights reserved.</div>
-        </div>
+        <CC/>
     </div>
   )
 }

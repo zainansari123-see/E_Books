@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaSignInAlt, FaUserPlus } from 'react-icons/fa';
-
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -10,17 +10,16 @@ const Navbar = () => {
               <img src="/logo.svg" alt="" className='h-12 w-fit ml-15'/>
             </div>
             <div className="flex gap-6">
-                 {/* Sign in */}
-               <a href="/signin" className="flex items-center gap-2 hover:text-purple-700">
-                <FaUserPlus /> Sign Up
-              </a>
-
                {/* Sign up */}
-              <a href="/signup" className="flex items-center gap-2 mr-36 hover:text-purple-700">
-                <FaSignInAlt /> Sign In
-              </a>
-            </div>
+                <Link href="/signup" className="flex items-center gap-2 hover:text-purple-700">
+                   <FaUserPlus /> Sign Up
+                </Link>
 
+                 {/* Sign in */}
+              <Link href="/signin" className="flex items-center gap-2 mr-36 hover:text-purple-700">
+                   <FaUserPlus /> Sign In
+              </Link>
+            </div>
         </div>
     </nav>
   )

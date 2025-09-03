@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/LAPTOP%20LAB/Documents/GitHub/E_Books/myapp/app/navbar/page.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst navbar = () => {\r\n  return (\r\n    <div>\r\n        <div className=''>\r\n            <a href=\"https://www.booktime.org/images/Logo_en.svg\" className='text-black'>ebooks</a>\r\n        </div>\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default navbar"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,SAAS;IACb,qBACE,8OAAC;kBACG,cAAA,8OAAC;YAAI,WAAU;sBACX,cAAA,8OAAC;gBAAE,MAAK;gBAA8C,WAAU;0BAAa;;;;;;;;;;;;;;;;AAIzF;uCAEe","debugId":null}}]
+}

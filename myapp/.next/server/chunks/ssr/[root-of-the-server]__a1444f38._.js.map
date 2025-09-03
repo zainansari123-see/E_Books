@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/LAPTOP%20LAB/Documents/GitHub/E_Books/myapp/app/Books/page.jsx"],"sourcesContent":["import React from 'react'\r\ni\r\n\r\nconst page = () => {\r\n  return (\r\n    <div>\r\n      <Navbar />\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default page"],"names":[],"mappings":";;;;;AAAA;;;AACA;AAEA,MAAM,OAAO;IACX,qBACE,8OAAC;kBACC,cAAA,8OAAC;;;;;;;;;;AAGP;uCAEe","debugId":null}}]
+}

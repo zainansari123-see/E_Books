@@ -147,7 +147,7 @@ const RegistrationForm = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "submit",
-                            className: "bg-white text-black font-bold py-2 rounded-md hover:text-red-500 transition hover:shadow-md",
+                            className: " text-black font-bold w-fit ml-33 py-2 rounded-md hover:text-red-500 transition hover:shadow-md",
                             children: "Register"
                         }, void 0, false, {
                             fileName: "[project]/app/signup/page.jsx",

@@ -35,7 +35,7 @@ const RegistrationForm = () => {
           {/* Button */}
           <button
             type="submit"
-            className="bg-white text-black font-bold py-2 rounded-md hover:text-red-500 transition hover:shadow-md">
+            className=" text-black font-bold w-fit ml-33 py-2 rounded-md hover:text-red-500 transition hover:shadow-md">
             Register
           </button>
           
@@ -44,7 +44,6 @@ const RegistrationForm = () => {
         <a href="#" className="mb-25 text-purple-600 w-full">Terms and Conditions.</a>
       <CC />
       </div>
-      
     </div>
   );
 };

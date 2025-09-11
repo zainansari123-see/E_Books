@@ -1,6 +1,16 @@
 {
   "pages": {},
+<<<<<<< HEAD
   "app": {},
   "appUsingSizeAdjust": false,
+=======
+  "app": {
+    "[project]/Documents/GitHub/E_Books/myapp/app/Books/page": [
+      "static/media/caa3a2e1cccd8315-s.p.6435ea53.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+>>>>>>> 6ec94f6f5024ee78be1ac9ffad5a89db008118f4
   "pagesUsingSizeAdjust": false
 }

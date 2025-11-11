@@ -633,20 +633,8 @@
     margin-bottom: calc(var(--spacing) * 25);
   }
 
-  .ml-1 {
-    margin-left: calc(var(--spacing) * 1);
-  }
-
-  .ml-2 {
-    margin-left: calc(var(--spacing) * 2);
-  }
-
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
-  }
-
-  .ml-10 {
-    margin-left: calc(var(--spacing) * 10);
   }
 
   .ml-15 {
@@ -655,10 +643,6 @@
 
   .ml-18 {
     margin-left: calc(var(--spacing) * 18);
-  }
-
-  .ml-20 {
-    margin-left: calc(var(--spacing) * 20);
   }
 
   .ml-23 {

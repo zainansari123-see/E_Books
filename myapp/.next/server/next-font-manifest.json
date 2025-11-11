@@ -1,7 +1,20 @@
 {
   "app": {
+<<<<<<< HEAD
     "[project]/app/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+=======
+    "[project]/Documents/GitHub/E_Books/myapp/app/page": [
+      "static/media/caa3a2e1cccd8315-s.p.6435ea53.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/Documents/GitHub/E_Books/myapp/app/signin/page": [
+      "static/media/caa3a2e1cccd8315-s.p.6435ea53.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/Documents/GitHub/E_Books/myapp/app/signup/page": [
+      "static/media/caa3a2e1cccd8315-s.p.6435ea53.woff2",
+>>>>>>> 29e2681432b972d2842bc080fe8a6ba32e670c82
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ]
   },

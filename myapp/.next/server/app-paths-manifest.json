@@ -1,10 +1,6 @@
 {
-<<<<<<< HEAD
+  "/Books/page": "app/Books/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
-=======
   "/page": "app/page.js",
-  "/signin/page": "app/signin/page.js",
   "/signup/page": "app/signup/page.js"
->>>>>>> 29e2681432b972d2842bc080fe8a6ba32e670c82
 }

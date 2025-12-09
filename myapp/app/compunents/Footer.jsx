@@ -12,7 +12,7 @@ const Footer = () => {
             <div>
                 <ul className="gap-2 text-gray-600 flex flex-col ml-25">
                     <p>Menu</p>
-                    <li><a href="/" className="hover:text-purple-700 hover:underline">Home</a></li>
+                    <li><a href="/" className="hover:text-purple-700 hover:boder:"><td className='' >Home</td></a></li>
                     <li><a href="#" className="hover:text-purple-700 hover:underline">Books</a></li>
                     <li><a href="#" className="hover:text-purple-700 hover:underline">Series</a></li>
                     <li><a href="#" className="hover:text-purple-700 hover:underline">Contributors</a></li>
